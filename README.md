@@ -34,6 +34,11 @@ The XGB Decision Tree Metrics, which shows key statistics on the performance of 
 The graphical representation of the precision recall curve which the tradeoff between precision and recall are shown.
 Precision is true positives over true positives plus false positives, while recall is true positives over true positives plus false negatives.
 
+#### If for some reason there are no error messages and the graph does not show then create a cell above with this 
+
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+
 
 
 ## Explanation of the code
