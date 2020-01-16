@@ -12,7 +12,7 @@ pip install matplotlib==1.3.1
 
 
 ## Introduction
-The library that i have chosen to use is the XGBoost library, which i think is somehow connected to sklearn.
+The primary library that I have chosen to use is the XGBoost library, which I believe is somehow connected to Sklearn.
 More specifically, the type of machine learning that is functioning is a combonation between logistical regression and gradiant boosting trees.
 Logistical regression is optimal for binary factors such as in this case of whether a transaction can be classified as fraud or not.
 
@@ -27,14 +27,16 @@ upon when needed. Just run the whole file or each cell individually. Fair warnin
 
 
 ## Results of the code
-The main two parts of the output are as follows:
+#### The main two parts of the output are as follows:
 
-The XGB Decision Tree Metrics, which shows key statistics on the performance of the model, such as the Accuracy, Log Loss, and Error
+The XGB Decision Tree Metrics, which shows key statistics on the performance of the model, such as the Accuracy, Log Loss, and Error.
 
 The graphical representation of the precision recall curve which the tradeoff between precision and recall are shown.
 Precision is true positives over true positives plus false positives, while recall is true positives over true positives plus false negatives.
 
-#### If for some reason there are no error messages and the graph does not show then create a cell above with this 
+#### Example: https://github.com/BlakeRosenhagen/UT-Final-Project/blob/master/images/example.PNG
+
+#### If for some reason there are no error messages and the graph does not show then create a cell above with this:
 
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
@@ -52,6 +54,20 @@ The probability predictions and regular predictions are generated and used to be
 
 Then the "pickle" library is used to save the model into "models" which can be called upon later for prediction.
 
-A really cool visulaization is creted with the next section of code, which I found on https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html#sphx-glr-auto-examples-model-selection-plot-precision-recall-py
+A really cool visulaization is created with the next section of code, which I found on https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html#sphx-glr-auto-examples-model-selection-plot-precision-recall-py
+
+To read more on this: https://stats.stackexchange.com/questions/350134/how-does-gradient-boosting-calculate-probability-estimates
 
 There is some code in "training_testing.py" which I was experimeting with, but could not figure out how to function. Its in there so I can go back later and tweak.
+
+## Technologies used
+* Python
+* Jupyter Notebook
+* Pandas
+* Numpy
+* SciKit-Learn
+* XGBoost
+* Pickle
+* Matplotlib
+* Inspect
+* Graphviz (not used)
