@@ -18,6 +18,21 @@ Logistical regression is optimal for binary factors such as in this case of whet
 
 
 
+## Usability
+So after ensuring that xgboost is installed, open the jupyter notebook.
+
+It will be a very simple file since I have been practicing "compartimentalizing" the code into seperate files that can be called
+upon when needed. Just run the whole file or each cell individually. Fair warning, it may take upwards of five minuits to calculate everything involved.
+
+
+
+## Results of the code
+The main two parts of the output are as follows:
+
+The XGB Decision Tree Metrics, which shows key statistics on the performance of the model, such as the Accuracy, Log Loss, and Error
+
+The graphical representation of the precision recall curve which the tradeoff between precision and recall are shown.
+Precision is true positives over true positives plus false positives, while recall is true positives over true positives plus false negatives.
 
 
 
