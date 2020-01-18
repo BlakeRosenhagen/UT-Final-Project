@@ -1,13 +1,16 @@
 # UT-Final-Project
 Training a machine learning model to identify whether particular transactions are fraud.
 ## Attention!
+
+#### Download csv from https://www.kaggle.com/ntnu-testimon/paysim1 and place csv file in "data" folder. Title file "transaction.csv"
+
 Make sure XGBClassifier is installed: conda install -c conda-forge xgboost
 
 Also, you may have to revert matplotlib library back to 1.5:
 
-pip uninstall matplotlib
+* pip uninstall matplotlib
 
-pip install matplotlib==1.3.1
+* pip install matplotlib==1.3.1
 
 
 
